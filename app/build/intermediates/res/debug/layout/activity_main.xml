@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.casasmap.p1.MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/ball01" />
+    <TextView
+        android:id="@+id/textViewLema"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:gravity="center_horizontal"
+        android:textStyle="italic"
+        android:shadowColor="#fff"
+        android:shadowRadius="10"
+        android:textColor="#fff"
+        android:textSize="20sp" 
+        android:text="@string/ask_me"
+
+
+        />
+
+    <Button
+        android:id="@+id/buttonMain1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_marginBottom="25dp"
+        android:text="@string/buttonMain1"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewMain1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonMain1"
+        android:layout_marginBottom="148dp"
+        android:gravity="center_horizontal"
+        android:shadowColor="#fff"
+        android:shadowRadius="10"
+        android:textColor="#fff"
+        android:textSize="30sp" />
+    
+        <TextView
+        android:id="@+id/textViewLema"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonMain1"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal"
+        android:textStyle="italic"
+        android:shadowColor="#fff"
+        android:shadowRadius="10"
+        android:textColor="#fff"
+        android:textSize="15sp" 
+        android:text="@string/brought"
+
+
+        />
+
+</RelativeLayout><!-- From: file:/Users/ramiro/AndroidStudioProjects/Lucky_Ball_V1/app/src/main/res/layout/activity_main.xml -->
