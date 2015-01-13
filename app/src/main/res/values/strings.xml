@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">P1</string>
+    <string name="hello_world">Hello world papitos y mamitos!</string>
+    <string name="action_settings">Settings</string>
+    <string name="buttonMain1">Press/shake me to know!</string>
+    <string name="brought">Powered by CasasMap.com</string>
+    <string name="toast_message">Yay let\'s start!</string>
+        <string name="ask_me">Ask me!</string>
+
+
+    <string-array name="the_answers">
+        <item>Yeah! :)</item>
+        <item>No doubt about it</item>
+        <item>Yes :(</item>
+        <item>Of course not!</item>
+        <item>No</item>
+        <item>Never :(</item>
+        <item>Maybe</item>
+        <item>Who knows</item>
+        <item>Better try again</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">P1</string>
+    <string name="hello_world">Hello world papitos y mamitos!</string>
+    <string name="action_settings">Configuracion</string>
+    <string name="buttonMain1">Presiona o Sacude para saber!</string>
+    <string name="brought">Auspiciado por CasasMap.com</string>
+    <string name="toast_message">Vamos carajo!</string>
+    <string name="ask_me">Preguntame!</string>
+
+    <string-array name="the_answers">
+        <item>Si!</item>
+        <item>Dalo por hecho :)</item>
+        <item>Sin duda campeon!</item>
+        <item>Que pregunta mas tonta :\'(</item>
+        <item>No :\'(</item>
+        <item>Todos saben que <br/>nooooo</item>
+        <item>La situacion esta <br/>complicada</item>
+        <item>Mejor vete <br/>resignando</item>
+        <item>No se!</item>
+    </string-array>
+
+</resources>
